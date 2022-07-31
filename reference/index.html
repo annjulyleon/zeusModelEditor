@@ -1,0 +1,2293 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Reference - Zeus Model Editor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Zeus Model Editor" class="md-header__button md-logo" aria-label="Zeus Model Editor" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Zeus Model Editor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reference
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Zeus Model Editor" class="md-nav__button md-logo" aria-label="Zeus Model Editor" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Zeus Model Editor
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Model Editor
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/" class="md-nav__link">
+        Tutorials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-guides/" class="md-nav__link">
+        How-To Guides
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Reference
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.file_grabber" class="md-nav__link">
+    app.parser.file_grabber
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile" class="md-nav__link">
+    ParseFile
+  </a>
+  
+    <nav class="md-nav" aria-label="ParseFile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile.get_line_from_file" class="md-nav__link">
+    get_line_from_file()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile.parse_models" class="md-nav__link">
+    parse_models()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.line_grabber" class="md-nav__link">
+    app.parser.line_grabber
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.line_grabber.ParseLine" class="md-nav__link">
+    ParseLine
+  </a>
+  
+    <nav class="md-nav" aria-label="ParseLine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.line_grabber.ParseLine.model_parser" class="md-nav__link">
+    model_parser()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.file_builder" class="md-nav__link">
+    app.builder.file_builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile" class="md-nav__link">
+    BuildFile
+  </a>
+  
+    <nav class="md-nav" aria-label="BuildFile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile.copy_model_file" class="md-nav__link">
+    copy_model_file()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile.replace_line_in_file" class="md-nav__link">
+    replace_line_in_file()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.line_builder" class="md-nav__link">
+    app.builder.line_builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.line_builder.BuildLine" class="md-nav__link">
+    BuildLine
+  </a>
+  
+    <nav class="md-nav" aria-label="BuildLine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.line_builder.BuildLine.build_line" class="md-nav__link">
+    build_line()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../explanation/" class="md-nav__link">
+        Explanation
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.file_grabber" class="md-nav__link">
+    app.parser.file_grabber
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile" class="md-nav__link">
+    ParseFile
+  </a>
+  
+    <nav class="md-nav" aria-label="ParseFile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile.get_line_from_file" class="md-nav__link">
+    get_line_from_file()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.file_grabber.ParseFile.parse_models" class="md-nav__link">
+    parse_models()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.line_grabber" class="md-nav__link">
+    app.parser.line_grabber
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.parser.line_grabber.ParseLine" class="md-nav__link">
+    ParseLine
+  </a>
+  
+    <nav class="md-nav" aria-label="ParseLine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.parser.line_grabber.ParseLine.model_parser" class="md-nav__link">
+    model_parser()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.file_builder" class="md-nav__link">
+    app.builder.file_builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile" class="md-nav__link">
+    BuildFile
+  </a>
+  
+    <nav class="md-nav" aria-label="BuildFile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile.copy_model_file" class="md-nav__link">
+    copy_model_file()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.file_builder.BuildFile.replace_line_in_file" class="md-nav__link">
+    replace_line_in_file()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.line_builder" class="md-nav__link">
+    app.builder.line_builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.builder.line_builder.BuildLine" class="md-nav__link">
+    BuildLine
+  </a>
+  
+    <nav class="md-nav" aria-label="BuildLine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.builder.line_builder.BuildLine.build_line" class="md-nav__link">
+    build_line()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="reference">Reference</h1>
+<p>This is documentation from the code.</p>
+
+
+<div class="doc doc-object doc-module">
+
+
+<a id="app.parser.file_grabber"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h2 id="app.parser.file_grabber.ParseFile" class="doc doc-heading">
+        <code>ParseFile</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  
+      <p>Class is used to parse model file.</p>
+
+  <p><strong>Attributes:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>common_house</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of common houses names as in model file</p></td>
+        </tr>
+        <tr>
+          <td><code>elite_house</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of elite houses names as in model file</p></td>
+        </tr>
+        <tr>
+          <td><code>decor</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of decoration buildings names as in model file</p></td>
+        </tr>
+        <tr>
+          <td><code>sanctuary</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of sanctuary building names as in model file</p></td>
+        </tr>
+        <tr>
+          <td><code>food</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of food building names as in model file</p></td>
+        </tr>
+        <tr>
+          <td><code>raw</code></td>
+          <td>
+          </td>
+          <td><p>a tuple of raw building names as in model file</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+
+        <details class="quote">
+          <summary>Source code in <code>app\parser\file_grabber.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">  5</span>
+<span class="normal">  6</span>
+<span class="normal">  7</span>
+<span class="normal">  8</span>
+<span class="normal">  9</span>
+<span class="normal"> 10</span>
+<span class="normal"> 11</span>
+<span class="normal"> 12</span>
+<span class="normal"> 13</span>
+<span class="normal"> 14</span>
+<span class="normal"> 15</span>
+<span class="normal"> 16</span>
+<span class="normal"> 17</span>
+<span class="normal"> 18</span>
+<span class="normal"> 19</span>
+<span class="normal"> 20</span>
+<span class="normal"> 21</span>
+<span class="normal"> 22</span>
+<span class="normal"> 23</span>
+<span class="normal"> 24</span>
+<span class="normal"> 25</span>
+<span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
+<span class="normal"> 34</span>
+<span class="normal"> 35</span>
+<span class="normal"> 36</span>
+<span class="normal"> 37</span>
+<span class="normal"> 38</span>
+<span class="normal"> 39</span>
+<span class="normal"> 40</span>
+<span class="normal"> 41</span>
+<span class="normal"> 42</span>
+<span class="normal"> 43</span>
+<span class="normal"> 44</span>
+<span class="normal"> 45</span>
+<span class="normal"> 46</span>
+<span class="normal"> 47</span>
+<span class="normal"> 48</span>
+<span class="normal"> 49</span>
+<span class="normal"> 50</span>
+<span class="normal"> 51</span>
+<span class="normal"> 52</span>
+<span class="normal"> 53</span>
+<span class="normal"> 54</span>
+<span class="normal"> 55</span>
+<span class="normal"> 56</span>
+<span class="normal"> 57</span>
+<span class="normal"> 58</span>
+<span class="normal"> 59</span>
+<span class="normal"> 60</span>
+<span class="normal"> 61</span>
+<span class="normal"> 62</span>
+<span class="normal"> 63</span>
+<span class="normal"> 64</span>
+<span class="normal"> 65</span>
+<span class="normal"> 66</span>
+<span class="normal"> 67</span>
+<span class="normal"> 68</span>
+<span class="normal"> 69</span>
+<span class="normal"> 70</span>
+<span class="normal"> 71</span>
+<span class="normal"> 72</span>
+<span class="normal"> 73</span>
+<span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">ParseFile</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Class is used to parse model file.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">        common_house: a tuple of common houses names as in model file</span>
+<span class="sd">        elite_house: a tuple of elite houses names as in model file</span>
+<span class="sd">        decor: a tuple of decoration buildings names as in model file</span>
+<span class="sd">        sanctuary: a tuple of sanctuary building names as in model file</span>
+<span class="sd">        food: a tuple of food building names as in model file</span>
+<span class="sd">        raw: a tuple of raw building names as in model file</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">common_house</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Hut&#39;</span><span class="p">,</span> <span class="s1">&#39;Shack&#39;</span><span class="p">,</span> <span class="s1">&#39;Hovel&#39;</span><span class="p">,</span> <span class="s1">&#39;Homestead&#39;</span><span class="p">,</span> <span class="s1">&#39;Tenement&#39;</span><span class="p">,</span> <span class="s1">&#39;Apartment&#39;</span><span class="p">,</span> <span class="s1">&#39;Townhouse&#39;</span><span class="p">)</span>
+    <span class="n">elite_house</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Devolved&#39;</span><span class="p">,</span> <span class="s1">&#39;Residence&#39;</span><span class="p">,</span> <span class="s1">&#39;Mansion&#39;</span><span class="p">,</span> <span class="s1">&#39;Manor&#39;</span><span class="p">,</span> <span class="s1">&#39;Estate&#39;</span><span class="p">)</span>
+    <span class="n">decor</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_FLOWER_GARDEN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_GAZEBO&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_HEDGE_MAZE&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_FISH_POND&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_TALL_OBELISK&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;BUILD_SUNDIAL&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_TOPIARY&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SPRING&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_STONE_CIRCLE&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SHORT_OBELISK&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;BUILD_WATER_PARK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BOULEVARD&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BENCH&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_GARDENS&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_DORIC_COLUMN&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;BUILD_IONIC_COLUMN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_CORINTHIAN_COLUMN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_DOLPHIN_SCULPTURE&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_ORRERY&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;BUILD_SHELL_GARDEN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BATHS&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BIRD_BATH&#39;</span><span class="p">)</span>
+    <span class="n">sanctuary</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_LARGE_SANC_ZEUS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_POSEIDON&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_DEMETER&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;BUILD_LARGE_SANC_APOLLO&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_ARTEMIS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_ARES&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;BUILD_LARGE_SANC_APHRODITE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_HERMES&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_ATHENA&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;BUILD_LARGE_SANC_HEPHAISTOS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_DIONYSUS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_HADES&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;BUILD_LARGE_SANC_HERA&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_ATLAS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_LARGE_SANC_POSEIDON2&#39;</span><span class="p">)</span>
+    <span class="n">food</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_WHEAT_FARM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_ONION_FARM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_CARROT_FARM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_GROWERS_LODGE&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;BUILD_SHEEP_FARM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_GOAT_FARM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_FISHING_WHARF&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_URCHIN_COLLECTOR&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;BUILD_HUNTING_LODGE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_FRUIT_GROWERS_LODGE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_CORRAL_SLAUGHTER&#39;</span><span class="p">)</span>
+    <span class="n">raw</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_MINT&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_MARBLE_QUARRY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_FOUNDRY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_TIMBER_MILL&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;BUILD_ORICHALC_REFINERY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_BLACK_MARBLE_SHOP&#39;</span><span class="p">)</span>
+    <span class="n">workshop</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_WINERY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_OIL_PRESS&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_SCULPTURE_STUDIO&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_ARTISANS_GUILD&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;BUILD_CHARIOT_WORKSHOP&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_ARMORY&#39;</span><span class="p">)</span>
+    <span class="n">service</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_FOUNTAIN&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_INFIRMARY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_TAX_OFFICE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_GUARDPOST&#39;</span><span class="p">)</span>
+    <span class="n">storage</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_GRANARY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_STOREHOUSE,&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_DOCK,&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_TRADING_POST&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_FOOD_VENDOR&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;BUILD_FLEECE_VENDOR&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_OIL_VENDOR&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_WINE_VENDOR&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_ARMS_VENDOR&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;BUILD_HORSE_TRAINER&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_CHARIOT_VENDOR&#39;</span><span class="p">)</span>
+    <span class="c1">#: tuple of str: Doc comment *before* attribute, with type specified</span>
+    <span class="n">culture</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_COLLEGE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_DRAMA_SCHOOL&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_GYMNASIUM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_STADIUM&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_PODIUM&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;BUILD_THEATRE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_BIBLIOTHEKE&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_OBSERVATORY&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_UNIVERSITY&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;BUILD_LABORATORY&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;BUILD_INVENTORS_WORKSHOP&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_MUSUEM&#39;</span><span class="p">)</span>
+    <span class="n">gov</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;BUILD_TOWER&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_HORSE_RANCH&#39;</span><span class="p">,</span> <span class="s1">&#39;BUILD_WARSHIP_WHARF&#39;</span><span class="p">)</span>
+
+    <span class="n">buildings_all</span> <span class="o">=</span> <span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="n">decor</span><span class="p">,</span> <span class="n">sanctuary</span><span class="p">,</span> <span class="n">food</span><span class="p">,</span> <span class="n">raw</span><span class="p">,</span> <span class="n">workshop</span><span class="p">,</span> <span class="n">service</span><span class="p">,</span> <span class="n">storage</span><span class="p">,</span> <span class="n">culture</span><span class="p">,</span> <span class="n">gov</span><span class="p">)</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">parse_models</span><span class="p">(</span><span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">building_names</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Returns list of parsed lines from path/file_name that contains building_names passes as a tuple</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            file_name (str): name of the model file, if path is not specified - in the `data/default/models`</span>
+<span class="sd">            building_names (tuple): name of the buildings to parse from the model file</span>
+<span class="sd">            path (Path, optional): if specified, look for `file_name` in this directory</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            list: list of the parsed lines from the model file with specified `building_names`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="p">:</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span> <span class="o">/</span> <span class="s1">&#39;data&#39;</span> <span class="o">/</span> <span class="s1">&#39;default&#39;</span> <span class="o">/</span> <span class="s1">&#39;models&#39;</span> <span class="o">/</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">file_name</span><span class="si">}</span><span class="s1">.txt&#39;</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf_8_sig&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+            <span class="n">lines_filtered_by_names</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">model_name</span> <span class="ow">in</span> <span class="n">building_names</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">model_name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                        <span class="n">lines_filtered_by_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+        <span class="n">lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span> <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">lines_filtered_by_names</span><span class="p">]</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">lines</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">lines</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">get_line_from_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">line_to_search</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Returns line of text which contains line_to_search from the file file_path</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            file_path (str): path to file from current directory</span>
+<span class="sd">            line_to_search (str): line or text to search in the model file</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            str: single line which contains `line_to_search`</span>
+<span class="sd">        Raises:</span>
+<span class="sd">            ValueError: if `line_to_search` is no found in the model file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span> <span class="o">/</span> <span class="n">file_path</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file_lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+        <span class="n">line</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="n">line_text</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">file_lines</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">line_to_search</span> <span class="ow">in</span> <span class="n">line_text</span><span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="n">line_text</span>
+                <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">break</span>
+
+        <span class="k">if</span> <span class="n">flag</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Line </span><span class="si">{</span><span class="n">line_to_search</span><span class="si">}</span><span class="s2"> not found in file&quot;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.parser.file_grabber.ParseFile.get_line_from_file" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_line_from_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">line_to_search</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Returns line of text which contains line_to_search from the file file_path</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>file_path</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>path to file from current directory</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>line_to_search</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>line or text to search in the model file</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>str</code></td>          <td>
+          </td>
+          <td><p>single line which contains <code>line_to_search</code></p></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Raises:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>ValueError</code>
+          </td>
+          <td><p>if <code>line_to_search</code> is no found in the model file</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\parser\file_grabber.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">get_line_from_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">line_to_search</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns line of text which contains line_to_search from the file file_path</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        file_path (str): path to file from current directory</span>
+<span class="sd">        line_to_search (str): line or text to search in the model file</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        str: single line which contains `line_to_search`</span>
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if `line_to_search` is no found in the model file</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span> <span class="o">/</span> <span class="n">file_path</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">file_lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+    <span class="n">line</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="n">line_text</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">file_lines</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">line_to_search</span> <span class="ow">in</span> <span class="n">line_text</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line_text</span>
+            <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">break</span>
+
+    <span class="k">if</span> <span class="n">flag</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Line </span><span class="si">{</span><span class="n">line_to_search</span><span class="si">}</span><span class="s2"> not found in file&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.parser.file_grabber.ParseFile.parse_models" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">parse_models</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">building_names</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Returns list of parsed lines from path/file_name that contains building_names passes as a tuple</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>file_name</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>name of the model file, if path is not specified - in the <code>data/default/models</code></p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>building_names</code></td>
+          <td>
+                <code>tuple</code>
+          </td>
+          <td><p>name of the buildings to parse from the model file</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>path</code></td>
+          <td>
+                <code><span title="pathlib.Path">Path</span></code>
+          </td>
+          <td><p>if specified, look for <code>file_name</code> in this directory</p></td>
+          <td>
+                <code>None</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>list</code></td>          <td>
+                <code>list</code>
+          </td>
+          <td><p>list of the parsed lines from the model file with specified <code>building_names</code></p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\parser\file_grabber.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">parse_models</span><span class="p">(</span><span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">building_names</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Returns list of parsed lines from path/file_name that contains building_names passes as a tuple</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        file_name (str): name of the model file, if path is not specified - in the `data/default/models`</span>
+<span class="sd">        building_names (tuple): name of the buildings to parse from the model file</span>
+<span class="sd">        path (Path, optional): if specified, look for `file_name` in this directory</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        list: list of the parsed lines from the model file with specified `building_names`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span> <span class="o">/</span> <span class="s1">&#39;data&#39;</span> <span class="o">/</span> <span class="s1">&#39;default&#39;</span> <span class="o">/</span> <span class="s1">&#39;models&#39;</span> <span class="o">/</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">file_name</span><span class="si">}</span><span class="s1">.txt&#39;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf_8_sig&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+        <span class="n">lines_filtered_by_names</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">model_name</span> <span class="ow">in</span> <span class="n">building_names</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">model_name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">lines_filtered_by_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+    <span class="n">lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span> <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">lines_filtered_by_names</span><span class="p">]</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">lines</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">lines</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-module">
+
+
+<a id="app.parser.line_grabber"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Provide classes and methods to operate building lines from the model files.</p>
+<p>The module contains following methods:
+- <code>ParseLine.model_parser(regular_expression, building_string)</code> - Returns a dictionary of parsed values from the line</p>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h2 id="app.parser.line_grabber.ParseLine" class="doc doc-heading">
+        <code>ParseLine</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  
+      <p>Building lines parsing operations</p>
+
+
+        <details class="quote">
+          <summary>Source code in <code>app\parser\line_grabber.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">ParseLine</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Building lines parsing operations&quot;&quot;&quot;</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">model_parser</span><span class="p">(</span><span class="n">regular_expression</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">building_string</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;With given pattern parse given string with building model and returns a dictionary</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            regular_expression: regular expression pattern passes in the re.Pattern format</span>
+<span class="sd">            building_string: string with building model line from the model file</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dictionary with contains `bid` as building id from the file, `building_name` as building name,</span>
+<span class="sd">            and `values` as list of parse values from the string</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">building_model</span> <span class="o">=</span> <span class="n">regular_expression</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">building_string</span><span class="p">)</span>
+        <span class="n">bid</span> <span class="o">=</span> <span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span><span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)))</span>
+
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;bid&quot;</span><span class="p">:</span> <span class="n">bid</span><span class="p">,</span> <span class="s2">&quot;building_name&quot;</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span> <span class="s2">&quot;values&quot;</span><span class="p">:</span> <span class="n">values</span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.parser.line_grabber.ParseLine.model_parser" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">model_parser</span><span class="p">(</span><span class="n">regular_expression</span><span class="p">,</span> <span class="n">building_string</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>With given pattern parse given string with building model and returns a dictionary</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>regular_expression</code></td>
+          <td>
+                <code>re.<span title="re.Pattern">Pattern</span></code>
+          </td>
+          <td><p>regular expression pattern passes in the re.Pattern format</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>building_string</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>string with building model line from the model file</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>dict</code>
+          </td>
+          <td><p>dictionary with contains <code>bid</code> as building id from the file, <code>building_name</code> as building name,</p></td>
+        </tr>
+        <tr>
+          <td>
+                <code>dict</code>
+          </td>
+          <td><p>and <code>values</code> as list of parse values from the string</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\parser\line_grabber.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">model_parser</span><span class="p">(</span><span class="n">regular_expression</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">building_string</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;With given pattern parse given string with building model and returns a dictionary</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        regular_expression: regular expression pattern passes in the re.Pattern format</span>
+<span class="sd">        building_string: string with building model line from the model file</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dictionary with contains `bid` as building id from the file, `building_name` as building name,</span>
+<span class="sd">        and `values` as list of parse values from the string</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">building_model</span> <span class="o">=</span> <span class="n">regular_expression</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">building_string</span><span class="p">)</span>
+    <span class="n">bid</span> <span class="o">=</span> <span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span><span class="n">building_model</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)))</span>
+
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;bid&quot;</span><span class="p">:</span> <span class="n">bid</span><span class="p">,</span> <span class="s2">&quot;building_name&quot;</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span> <span class="s2">&quot;values&quot;</span><span class="p">:</span> <span class="n">values</span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-module">
+
+
+<a id="app.builder.file_builder"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h2 id="app.builder.file_builder.BuildFile" class="doc doc-heading">
+        <code>BuildFile</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  
+      <p>Class is used to build model file from the json.</p>
+
+
+        <details class="quote">
+          <summary>Source code in <code>app\builder\file_builder.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">BuildFile</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Class is used to build model file from the json.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">copy_model_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Copy original model files of specified difficulty</span>
+
+<span class="sd">                Args:</span>
+<span class="sd">                    difficulty (int): 0 to 4 with 0 being Easy, 4 - Impossible</span>
+<span class="sd">                Returns:</span>
+<span class="sd">                    None</span>
+<span class="sd">                Raises:</span>
+<span class="sd">                    ValueError: if difficulty value is not integer or in the model_files</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;output&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">model_files</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_VeryEasy.txt&quot;</span><span class="p">,</span>
+            <span class="mi">1</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Easy.txt&quot;</span><span class="p">,</span>
+            <span class="mi">2</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Normal.txt&quot;</span><span class="p">,</span>
+            <span class="mi">3</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Hard.txt&quot;</span><span class="p">,</span>
+            <span class="mi">4</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Impossible.txt&quot;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="n">difficulty</span> <span class="ow">in</span> <span class="n">model_files</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">src</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;app&#39;</span><span class="p">,</span> <span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="s1">&#39;models&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="p">[</span><span class="n">difficulty</span><span class="p">])</span>
+            <span class="n">dst</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="p">[</span><span class="n">difficulty</span><span class="p">])</span>
+            <span class="n">copy</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">dst</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Difficulty should be passed as integer from 0 to 4 included&quot;</span><span class="p">)</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">replace_line_in_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">line_to_replace</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Replace line in the mode file</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">                difficulty (int): 0 to 4 with 0 being Easy, 4 - Impossible</span>
+<span class="sd">                line_to_replace (str): string by wich line inf file is found</span>
+<span class="sd">                line (str): text to replace line with</span>
+<span class="sd">            Returns:</span>
+<span class="sd">                None</span>
+<span class="sd">            Raises:</span>
+<span class="sd">                ValueError: if line is not found in mode file</span>
+<span class="sd">                FileNotFoundError: if model file is not found</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">model_files</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_VeryEasy.txt&quot;</span><span class="p">,</span>
+            <span class="mi">1</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Easy.txt&quot;</span><span class="p">,</span>
+            <span class="mi">2</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Normal.txt&quot;</span><span class="p">,</span>
+            <span class="mi">3</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Hard.txt&quot;</span><span class="p">,</span>
+            <span class="mi">4</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Impossible.txt&quot;</span>
+        <span class="p">}</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">difficulty</span><span class="p">))</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+                <span class="n">file_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;File &quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s1">&quot; not found&#39;</span><span class="p">)</span>
+
+        <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="n">line_text</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">file_data</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">line_to_replace</span> <span class="ow">in</span> <span class="n">line_text</span><span class="p">:</span>
+                <span class="n">file_data</span><span class="p">[</span><span class="n">number</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+                <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">break</span>
+
+        <span class="k">if</span> <span class="n">flag</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Line </span><span class="si">{</span><span class="n">line_to_replace</span><span class="si">}</span><span class="s2"> not found in file&quot;</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="n">file_data</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.builder.file_builder.BuildFile.copy_model_file" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">copy_model_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Copy original model files of specified difficulty</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>difficulty</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>0 to 4 with 0 being Easy, 4 - Impossible</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+          </td>
+          <td><p>None</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Raises:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>ValueError</code>
+          </td>
+          <td><p>if difficulty value is not integer or in the model_files</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\builder\file_builder.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">copy_model_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Copy original model files of specified difficulty</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">                difficulty (int): 0 to 4 with 0 being Easy, 4 - Impossible</span>
+<span class="sd">            Returns:</span>
+<span class="sd">                None</span>
+<span class="sd">            Raises:</span>
+<span class="sd">                ValueError: if difficulty value is not integer or in the model_files</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;output&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">model_files</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_VeryEasy.txt&quot;</span><span class="p">,</span>
+        <span class="mi">1</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Easy.txt&quot;</span><span class="p">,</span>
+        <span class="mi">2</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Normal.txt&quot;</span><span class="p">,</span>
+        <span class="mi">3</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Hard.txt&quot;</span><span class="p">,</span>
+        <span class="mi">4</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Impossible.txt&quot;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="n">difficulty</span> <span class="ow">in</span> <span class="n">model_files</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">src</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;app&#39;</span><span class="p">,</span> <span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="s1">&#39;models&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="p">[</span><span class="n">difficulty</span><span class="p">])</span>
+        <span class="n">dst</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="p">[</span><span class="n">difficulty</span><span class="p">])</span>
+        <span class="n">copy</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">dst</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Difficulty should be passed as integer from 0 to 4 included&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.builder.file_builder.BuildFile.replace_line_in_file" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">replace_line_in_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">,</span> <span class="n">line_to_replace</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Replace line in the mode file</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>difficulty</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>0 to 4 with 0 being Easy, 4 - Impossible</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>line_to_replace</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>string by wich line inf file is found</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>line</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>text to replace line with</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+          </td>
+          <td><p>None</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Raises:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>ValueError</code>
+          </td>
+          <td><p>if line is not found in mode file</p></td>
+        </tr>
+        <tr>
+          <td>
+                <code>FileNotFoundError</code>
+          </td>
+          <td><p>if model file is not found</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\builder\file_builder.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">replace_line_in_file</span><span class="p">(</span><span class="n">difficulty</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">line_to_replace</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Replace line in the mode file</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            difficulty (int): 0 to 4 with 0 being Easy, 4 - Impossible</span>
+<span class="sd">            line_to_replace (str): string by wich line inf file is found</span>
+<span class="sd">            line (str): text to replace line with</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            None</span>
+<span class="sd">        Raises:</span>
+<span class="sd">            ValueError: if line is not found in mode file</span>
+<span class="sd">            FileNotFoundError: if model file is not found</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">model_files</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">0</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_VeryEasy.txt&quot;</span><span class="p">,</span>
+        <span class="mi">1</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Easy.txt&quot;</span><span class="p">,</span>
+        <span class="mi">2</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Normal.txt&quot;</span><span class="p">,</span>
+        <span class="mi">3</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Hard.txt&quot;</span><span class="p">,</span>
+        <span class="mi">4</span><span class="p">:</span> <span class="s2">&quot;Zeus_Model_Impossible.txt&quot;</span>
+    <span class="p">}</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">model_files</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">difficulty</span><span class="p">))</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;File &quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s1">&quot; not found&#39;</span><span class="p">)</span>
+
+    <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="n">line_text</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">file_data</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">line_to_replace</span> <span class="ow">in</span> <span class="n">line_text</span><span class="p">:</span>
+            <span class="n">file_data</span><span class="p">[</span><span class="n">number</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+            <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">break</span>
+
+    <span class="k">if</span> <span class="n">flag</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Line </span><span class="si">{</span><span class="n">line_to_replace</span><span class="si">}</span><span class="s2"> not found in file&quot;</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="n">file_data</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-module">
+
+
+<a id="app.builder.line_builder"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h2 id="app.builder.line_builder.BuildLine" class="doc doc-heading">
+        <code>BuildLine</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+
+
+        <details class="quote">
+          <summary>Source code in <code>app\builder\line_builder.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">BuildLine</span><span class="p">:</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">build_line</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">difficulty</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Build line in Zues Model format from json data</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">                data (dict): building data passed as dictionary</span>
+<span class="sd">                difficulty (int): difficulty</span>
+<span class="sd">            Returns:</span>
+<span class="sd">                line (str): built line</span>
+<span class="sd">            Raises:</span>
+<span class="sd">                Exception: Difficulty should be int</span>
+<span class="sd">                Exception: Building type should be one of &#39;house&#39; of &#39;building&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">bad_buildings</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;BUILD_TALL_OBELISK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SHORT_OBELISK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_WATER_PARK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_DOLPHIN_SCULPTURE&#39;</span><span class="p">,</span>
+                         <span class="s1">&#39;BUILD_ORRERY&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SHELL_GARDEN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BATHS&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BIRD_BATH&#39;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">difficulty</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]:</span>
+            <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;values&#39;</span><span class="p">][</span><span class="n">difficulty</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;default_values&#39;</span><span class="p">]]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Difficulty should be int as: &quot;</span>
+                            <span class="sa">f</span><span class="s2">&quot;0 (VeryEasy), 1 (Easy), 2 (Normal), 3 (Hard), 4 (Impossible)&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;house&quot;</span><span class="p">:</span>
+            <span class="n">values_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">21</span><span class="p">])</span><span class="si">}</span><span class="s1">,,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">21</span><span class="p">:</span><span class="mi">24</span><span class="p">])</span><span class="si">}</span><span class="s1">,,,,,,&#39;</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="se">{{</span><span class="si">{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;subtype&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;elite_house&quot;</span><span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Elite </span><span class="si">{</span><span class="n">line</span><span class="si">}</span><span class="s2">&quot;</span>
+
+        <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;building&quot;</span><span class="p">:</span>
+            <span class="n">values_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;,</span><span class="se">{{</span><span class="s1">,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span>
+
+            <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;building_name&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">bad_buildings</span><span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">,</span><span class="se">}}</span><span class="si">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;,&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">57</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">,</span><span class="se">}}</span><span class="si">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;,&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">57</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Building type should be one of &#39;house&#39; of &#39;building&#39;&quot;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">line</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="app.builder.line_builder.BuildLine.build_line" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">build_line</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">difficulty</span><span class="p">)</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Build line in Zues Model format from json data</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>data</code></td>
+          <td>
+                <code>dict</code>
+          </td>
+          <td><p>building data passed as dictionary</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>difficulty</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>difficulty</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>line</code></td>          <td>
+                <code>str</code>
+          </td>
+          <td><p>built line</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Raises:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>Exception</code>
+          </td>
+          <td><p>Difficulty should be int</p></td>
+        </tr>
+        <tr>
+          <td>
+                <code>Exception</code>
+          </td>
+          <td><p>Building type should be one of 'house' of 'building'</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>app\builder\line_builder.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">build_line</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">difficulty</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Build line in Zues Model format from json data</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            data (dict): building data passed as dictionary</span>
+<span class="sd">            difficulty (int): difficulty</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            line (str): built line</span>
+<span class="sd">        Raises:</span>
+<span class="sd">            Exception: Difficulty should be int</span>
+<span class="sd">            Exception: Building type should be one of &#39;house&#39; of &#39;building&#39;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">bad_buildings</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;BUILD_TALL_OBELISK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SHORT_OBELISK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_WATER_PARK&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_DOLPHIN_SCULPTURE&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;BUILD_ORRERY&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_SHELL_GARDEN&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BATHS&#39;</span><span class="p">,</span><span class="s1">&#39;BUILD_BIRD_BATH&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">difficulty</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]:</span>
+        <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;values&#39;</span><span class="p">][</span><span class="n">difficulty</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;default_values&#39;</span><span class="p">]]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Difficulty should be int as: &quot;</span>
+                        <span class="sa">f</span><span class="s2">&quot;0 (VeryEasy), 1 (Easy), 2 (Normal), 3 (Hard), 4 (Impossible)&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;house&quot;</span><span class="p">:</span>
+        <span class="n">values_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">21</span><span class="p">])</span><span class="si">}</span><span class="s1">,,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">21</span><span class="p">:</span><span class="mi">24</span><span class="p">])</span><span class="si">}</span><span class="s1">,,,,,,&#39;</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="se">{{</span><span class="si">{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;subtype&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;elite_house&quot;</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Elite </span><span class="si">{</span><span class="n">line</span><span class="si">}</span><span class="s2">&quot;</span>
+
+    <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;building&quot;</span><span class="p">:</span>
+        <span class="n">values_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;,</span><span class="se">{{</span><span class="s1">,</span><span class="si">{</span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">values</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span>
+
+        <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;building_name&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">bad_buildings</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">,</span><span class="se">}}</span><span class="si">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;,&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">57</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;bid&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;building_name&#39;</span><span class="p">]</span><span class="si">}{</span><span class="n">values_string</span><span class="si">}</span><span class="s2">,</span><span class="se">}}</span><span class="si">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;,&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">57</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Building type should be one of &#39;house&#39; of &#39;building&#39;&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">line</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../how-to-guides/" class="md-footer__link md-footer__link--prev" aria-label="Previous: How-To Guides" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              How-To Guides
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../explanation/" class="md-footer__link md-footer__link--next" aria-label="Next: Explanation" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Explanation
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
